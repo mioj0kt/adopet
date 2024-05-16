@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #1e90ff;
+  --secondary-color: #70a1ff;
+  --color-bg: #f1f2f6;
+  --black: #2f3542;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header__bg {
+  background-color: var(--primary-color);
+  padding: 8px 0;
+} 
+
+.header__bg > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__bg svg {
+  font-size: 24px;
+}
+
+.image__logo {                    
+  height: 56px;
+}         
+
+.search__icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search__container {
+  background-color: var(--secondary-color);
+  opacity: 0;
+  transition: .2s ease-in;
+}
+
+.form__search {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.from__search__input {
+  max-width: 242px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.2);
+  opacity: .9;
+  transition: opacity .2s ease;
+}
+
+input[placeholder]:focus {
+  opacity: 1;
+  color: black
+}
+
+.search__container--is-visible {
+  opacity: 1;
+}
+
+.footer {
+  margin-top: 24px;
+  padding: 16px 0;
+  background-color: var(--black);
+  color: var(--color-bg);
+}
+
+@media (min-width: 768px) {
+  .card img {
+    height: 112px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-top: 24px;
+  }
+}
