@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 1920px;
+    height: 90px;
+    border: 5px rgb(0, 85, 196);
+    background-color: rgb(0, 140, 255);
+    margin: -10px;
+    margin-top: -16px;
+    
+}
+
+.Logotxt{
+    font-size: 65px;
+    margin-left: -15px;
+    margin-top: -0px;
+}
+
+
+.sub1{
+    display: inline-block;
+    text-align: right;
+    float: right;
+    font-size: 40px;
+    margin-right: 60px;
+    margin-top: -77px;
+    background-color: rgb(61, 163, 247); 
+
+}
+
+.sub2{
+    display: inline-block;
+    text-align: right;
+    float: right;
+    font-size: 40px;
+    margin-right: 410px;
+    margin-top: -77px;
+    background-color: rgb(61, 163, 247); 
+    
+    
+
+}
+
+li{
+    list-style-type: none;
+}
+
+#main{
+   width: 620px;
+   height: 570px;
+   background-color: rgb(0, 140, 255); 
+   margin-top: 200px;
+   margin-left: 150px;
+   overflow-x: hidden;
+   overflow-y: auto;
+   
+}
+
+.cards{
+    margin-right: 35px;
+
+}
+
+#adotar{
+    width: 450px;
+    height: 150px;
+    background-color: rgb(164, 241, 101);
+    margin-left: 1100px;
+    margin-top: -340px;
+}
+
+.add{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+  
+}
+
+.ancora{
+    text-decoration: none;
+}
+
+.topoancora{
+    text-decoration: none;
+    color: inherit;
+}
+
+
