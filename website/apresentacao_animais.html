@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dogs</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/apresentacao_animais.css">
+</head>
+
+<body>
+  <header class="header__bg">
+    <div class="container">
+      <img class="image__logo" src="assets/imgs/logo.png" alt="Logo">
+      <button class="search__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-search"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+        </svg>
+      </button>
+    </div>
+  </header>
+  <nav class="search__container">
+    <div class="container">
+      <form class="form__search">
+        <input class="from__search__input" type="text" name="search" id="search" placeholder="Em contar animal" />
+      </form>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <h2 class=" text-center fst-italic fw-bold mb-4">
+          Nossos animais
+        </h2>
+        <div class="row m-0">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-menu" role="tablist">
+              <button type="button" class="nav-link special-color text-start fw-bold active" data-bs-toggle="tab"
+                data-bs-target="#agitado">
+                Agitado
+              </button>
+              <button type="button" class="nav-link text-start fw-bold" data-bs-toggle="tab" data-bs-target="#quieto">
+                Quieto
+              </button>
+              <button type="button" class="nav-link text-start fw-bold" data-bs-toggle="tab"
+                data-bs-target="#indefinido">
+                Indefinido
+              </button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="agitado">
+                <div class="row gap-3">
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/agitado1.webp" class="card-img-top" alt="cachorro agitado">
+                    <div class="card-body">
+                      <span>
+                        Nome: Cesinha
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 14kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Agitado
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/agitado2.png" class="card-img-top" alt="Cachorro agitado">
+                    <div class="card-body">
+                      <span>
+                        Nome: Dime
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 12kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Agitado
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/agitado3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>
+                        Nome: Vinicius
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 10kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Agitado
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/agitado4.jpeg" class="card-img-top" alt="cachorro agitado">
+                    <div class="card-body">
+                      <span>
+                        Nome: Brad
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 16kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Agitado
+                      </span>
+                    </div>
+                  </div>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-pane" id="quieto">
+                <div class="row gap-3">
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/quieto1.avif" class="card-img-top" alt="cachorro quieto">
+                    <div class="card-body">
+                      <span>
+                        Nome: Toto
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 15kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Quieto
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/quieto2.jpg" class="card-img-top" alt="cachorro quieto">
+                    <div class="card-body">
+                      <span>
+                        Nome: Sof
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 11kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Quieto
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/quieto3.jpg" class="card-img-top" alt="cachorro quieto">
+                    <div class="card-body">
+                      <span>
+                        Nome: Godo
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 18kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Quieto
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card col-md-3">
+                    <img src="assets/imgs/indefinido1.jpg" class="card-img-top" alt="cachorro">
+                    <div class="card-body">
+                      <span>
+                        Nme: Bob
+                      </span>
+                      <br />
+                      <span>
+                        Peso: 14kg
+                      </span>
+                      <br />
+                      <span>
+                        Personalidade: Quieto
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="indefinido">
+                <div class="row">
+                  <div class="row gap-3">
+                    <div class="card col-md-3">
+                      <img src="assets/imgs/indefinido1.jpg" class="card-img-top" alt="cachorro">
+                      <div class="card-body">
+                        <span>
+                          Nome: Sara
+                        </span>
+                        <br />
+                        <span>
+                          Peso: 18kg
+                        </span>
+                        <br />
+                        <span>
+                          Personalidade: Indefinido
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card col-md-3">
+                      <img src="assets/imgs/indefinido2.png" class="card-img-top" alt="cachorro">
+                      <div class="card-body">
+                        <span>
+                          Nome: Mile
+                        </span>
+                        <br />
+                        <span>
+                          Peso: 14kg
+                        </span>
+                        <br />
+                        <span>
+                          Personalidade: Indefinido
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card col-md-3">
+                      <img src="assets/imgs/indefinido3.jpg" class="card-img-top" alt="cachorro">
+                      <div class="card-body">
+                        <span>
+                          nome: Spyke
+                        </span>
+                        <br />
+                        <span>
+                          Peso: 15kg
+                        </span>
+                        <br />
+                        <span>
+                          Personalidade: Indefinido
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card col-md-3">
+                      <img src="assets/imgs/indefinido4.jpg" class="card-img-top" alt="Cachorro">
+                      <div class="card-body">
+                        <span>
+                          nome: Tito
+                        </span>
+                        <br />
+                        <span>
+                          Peso: 12kg
+                        </span>
+                        <br />
+                        <span>
+                          Personalidade: Indefinido
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+  </main>
+  <footer class="footer">
+    <div class="container text-center fw-bold">
+      <p class="m-0">Todos os direitos reservados a ADOPET</p>
+    </div>
+  </footer>
+  <script src="assets/scripts/apresentacao_animais.js"></script>
+</body>
+
+</html>
