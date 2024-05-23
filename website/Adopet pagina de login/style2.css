@@ -1,0 +1,53 @@
+body{
+ 
+}
+
+#nome{
+    font-size: 150px;
+    margin-left: 140px;
+    margin-top: 630px;
+}
+
+#fundo{
+    width: 1400px;
+    height: 985px;
+    background-color: rgb(32, 137, 239);
+    margin-top: -650px;
+    margin-left: -480px;
+}
+
+#email{
+    margin-left: 1200px;
+    margin-top: -580px;
+    font-size: 40px;
+}
+
+#senha{
+    margin-left: 1200px;
+    font-size: 40px;
+}
+
+#entrar{
+    margin-left: 1200px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#campo{
+    height: 460px;
+    width: 540px;
+    background-color: rgb(32, 137, 239);
+    float: right;
+    margin-right: 180px;
+    margin-top: -625px;
+}
+
+.logo{
+  margin-top: 250px;
+  display: block;
+  position: absolute;
+}
+
+
+
+
