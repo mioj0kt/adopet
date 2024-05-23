@@ -22,12 +22,22 @@ document.getElementById("form").addEventListener("submit", function(event) {
         descricao: descricao
     };
 
-    var animalJSON = JSON.stringify(animal);
+    // Recupera o array de animais do localStorage
+    let strdados = localStorage.getItem('db');
+    let objdados = { animais: [] };
 
-    localStorage.setItem("animal", animalJSON);
+    if (strdados) {
+        objdados = JSON.parse(strdados);
+    }
+
+    // Adiciona o novo animal ao array
+    objdados.animais.push(animal);
+
+    // Salva o array atualizado no localStorage
+    localStorage.setItem('db', JSON.stringify(objdados));
 
     alert("Cadastro do animal realizado com sucesso!");
 
-// Limpa o formulário
+    // Limpa o formulário
     document.getElementById("form").reset();
 });
