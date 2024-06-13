@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ADO<span>PET</span></div>
+        <nav>
+            <a href="#">Buscar Cachorros</a>
+            <a href="#">Minha Conta</a>
+        </nav>
+    </header>
+    <main>
+        <form id="dog-form">
+            <label for="file-input">Adicionar Imagem:</label>
+            <input type="file" id="file-input" accept="image/*" required>
+            <label for="name">Nome(se tiver):</label>
+            <input type="text" id="name">
+            <label for="age">Idade:</label>
+            <input type="text" id="age" required>
+            <label for="weight">Peso:</label>
+            <input type="text" id="weight" required>
+            <label for="address">Endereço de busca:</label>
+            <input type="text" id="address" required>
+            <label for="description">Descrição:</label>
+            <textarea id="description" rows="4" required></textarea>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="details">
+            <p>Nome(se tiver): <span id="display-name"></span></p>
+            <p>Idade: <span id="display-age"></span></p>
+            <p>Peso: <span id="display-weight"></span></p>
+            <p>Endereço de busca: <span id="display-address"></span></p>
+            <p>Descrição: <span id="display-description"></span></p>
+            <button id="contact-donor">Entre em contato com o doador</button>
+        </div>
+    </main>
+    <footer>
+        <p>TODOS OS DIREITOS RESERVADOS À EQUIPE ADOPET ©</p>
+        <a href="#">Fale Conosco</a>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

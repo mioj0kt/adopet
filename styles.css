@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E90FF;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header .logo span {
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #add8e6;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #87CEEB;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #98FB98;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.details {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+#contact-donor {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #98FB98;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
